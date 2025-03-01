@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+        -sort_by group
+Design : top
+Version: U-2022.12
+Date   : Mon Feb 10 19:32:14 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tsl18fs120_typ   Library: tsl18fs120_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_reordering/current_image_index_reg[0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: u_reordering/current_image_index_reg[0]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                280000                tsl18fs120_typ
+  reordering         35000                 tsl18fs120_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_reordering/current_image_index_reg[0]/CP (dfcrn1)     0.00 #     0.00 r
+  u_reordering/current_image_index_reg[0]/QN (dfcrn1)     0.28       0.28 r
+  u_reordering/U1201/ZN (oai22d1)                         0.06       0.34 f
+  u_reordering/current_image_index_reg[0]/D (dfcrn1)      0.00       0.34 f
+  data arrival time                                                  0.34
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_reordering/current_image_index_reg[0]/CP (dfcrn1)     0.00       0.00 r
+  library hold time                                      -0.03      -0.03
+  data required time                                                -0.03
+  --------------------------------------------------------------------------
+  data required time                                                -0.03
+  data arrival time                                                 -0.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.36
+
+
+1

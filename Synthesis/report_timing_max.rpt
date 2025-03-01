@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : top
+Version: U-2022.12
+Date   : Mon Feb 10 19:32:29 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tsl18fs120_typ   Library: tsl18fs120_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: RAM_U1 (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: u_reordering/compare_hash_reg[164]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                280000                tsl18fs120_typ
+  reordering         35000                 tsl18fs120_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (fall edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  RAM_U1/CEB2 (dpram4096x32_CB)                           0.00 #     5.00 f
+  RAM_U1/O2[4] (dpram4096x32_CB)                          2.28       7.28 f
+  u_reordering/reorder_O2[4] (reordering)                 0.00       7.28 f
+  u_reordering/U9181/ZN (inv0d1)                          0.60       7.88 r
+  u_reordering/U2234/ZN (oai222d1)                        0.16       8.04 f
+  u_reordering/compare_hash_reg[164]/D (dfcrn1)           0.00       8.04 f
+  data arrival time                                                  8.04
+
+  clock CLK (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  u_reordering/compare_hash_reg[164]/CP (dfcrn1)          0.00      10.00 r
+  library setup time                                     -0.15       9.85
+  data required time                                                 9.85
+  --------------------------------------------------------------------------
+  data required time                                                 9.85
+  data arrival time                                                 -8.04
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.82
+
+
+1

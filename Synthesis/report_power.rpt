@@ -1,0 +1,73 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : top
+Version: U-2022.12
+Date   : Mon Feb 10 19:34:09 2025
+****************************************
+
+
+Library(s) Used:
+
+    tsl18fs120_typ (File: /tools/kits/tower/PDK_TS18SL/FS120_STD_Cells_0_18um_2005_12/DW_TOWER_tsl18fs120/2005.12/synopsys/2004.12/models/tsl18fs120_typ.db)
+
+
+Operating Conditions: tsl18fs120_typ   Library: tsl18fs120_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top                    280000            tsl18fs120_typ
+image_buffer           4000              tsl18fs120_typ
+hash_calc              4000              tsl18fs120_typ
+reordering             35000             tsl18fs120_typ
+controller             4000              tsl18fs120_typ
+controller_DW01_inc_0_DW01_inc_1
+                       ForQA             tsl18fs120_typ
+reordering_DW01_inc_0_DW01_inc_2
+                       ForQA             tsl18fs120_typ
+hash_calc_DW01_inc_1_DW01_inc_4
+                       ForQA             tsl18fs120_typ
+image_buffer_DW01_inc_0_DW01_inc_5
+                       ForQA             tsl18fs120_typ
+reordering_DW01_inc_1_DW01_inc_6
+                       ForQA             tsl18fs120_typ
+reordering_DW01_add_9  ForQA             tsl18fs120_typ
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  86.4165 mW   (98%)
+  Net Switching Power  =   1.7129 mW    (2%)
+                         ---------
+Total Dynamic Power    =  88.1295 mW  (100%)
+
+Cell Leakage Power     =   9.9733 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory            75.9000        1.3626e-02        9.5180e+06           75.9231  (  86.14%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      9.8272            0.0000            0.0000            9.8272  (  11.15%)  i
+register       5.9190e-02        7.9412e-03        1.4108e+05        6.7314e-02  (   0.08%)
+sequential     1.3696e-02        1.4173e-03        7.8867e+03        1.5122e-02  (   0.02%)
+combinational      0.6164            1.6900        3.0639e+05            2.3067  (   2.62%)
+--------------------------------------------------------------------------------------------------
+Total             86.4164 mW         1.7130 mW     9.9734e+06 pW        88.1395 mW
+1
