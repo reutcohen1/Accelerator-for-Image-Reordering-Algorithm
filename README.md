@@ -15,7 +15,9 @@ The project included the following stages: architecture, hardware implementation
 </ul>
 
 <h2>Architecture</h2>
-![image](https://github.com/user-attachments/assets/d446d0d6-c413-4495-85a3-26633e474014)
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/9e1cc971-b086-4efa-b3a7-16e9bc421da9" />
+
+<h2>Design</h2>
 
 ![image](https://github.com/user-attachments/assets/2cb823d4-2865-4884-a16a-29ad7171ba88)
 
