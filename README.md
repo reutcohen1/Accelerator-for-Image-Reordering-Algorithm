@@ -19,15 +19,16 @@ The project included the following stages: architecture, hardware implementation
 
 <h2>Design</h2>
 
-<img width="500" alt="image" src='https://github.com/user-attachments/assets/2cb823d4-2865-4884-a16a-29ad7171ba88" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/8c78665a-0167-4071-bf28-486986f8a2c0" />
 
-![image](https://github.com/user-attachments/assets/2c653c5b-61f5-48c7-99cb-19cc775dbaef)
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/586bc728-c397-482d-9dd2-bec0a6e1ab47" />
 
-![image](https://github.com/user-attachments/assets/0299b2a5-39e2-46c6-acb4-0b30ed15ab3b)
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/38496e04-6f31-44f9-b936-c6b061582e1a" />
 
-![image](https://github.com/user-attachments/assets/c4260aa2-6aef-4e12-ae7f-34e98720302d)
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/3049971a-9cac-4d28-ade9-aaea1509db9e" />
 
-![image](https://github.com/user-attachments/assets/25407c1d-2ac8-4799-b378-356c9feb296d)
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/9d004158-92cf-4e21-869e-91f05475fa2c" />
+
 
 
 
