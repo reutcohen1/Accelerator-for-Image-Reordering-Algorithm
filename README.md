@@ -10,10 +10,6 @@ The project included the following stages: architecture, hardware implementation
 
 <h2>Useful Links</h2>
 <ul>
-https://github.com/sudoshivam/ai-for-self-driving-cars/tree/main
-[AI for Self-Driving Cars (GitHub)](https://github.com/sudoshivam/ai-for-self-driving-cars/tree/main)  
 <li><a href="https://github.com/sudoshivam/ai-for-self-driving-cars/tree/main">AI for Self-Driving Cars (GitHub)</a></li>
-
-[Semantic Segmentation for Self-Driving Cars Dataset](https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge)
-<a href="https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge">Semantic Segmentation for Self-Driving Cars Dataset</a>
+<li><a href="https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge">Semantic Segmentation for Self-Driving Cars Dataset</a></li>
 </ul>
